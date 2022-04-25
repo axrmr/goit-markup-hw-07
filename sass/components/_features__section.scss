@@ -1,0 +1,42 @@
+.features {
+  padding-top: 94px;
+}
+
+.features__list {
+}
+
+.features__item {
+}
+
+.features__block {
+  display: flex;
+  min-width: 270px;
+  min-height: 120px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  border-radius: 4px;
+
+  background-color: #f5f4fa;
+}
+
+.features__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.features__name {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.features__text {
+  margin: 0;
+
+  color: $greyText;
+  line-height: 1.71;
+}
