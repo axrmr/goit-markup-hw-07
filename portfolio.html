@@ -13,14 +13,8 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./css/portfolio.min.css" />
+
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
@@ -44,8 +38,8 @@
               </li>
             </ul>
           </nav>
-          <ul class="flex__block contacts">
-            <li class="item">
+          <ul class="contacts">
+            <li class="contacts__item">
               <a href="mailto:info@devstudio.com" class="contacts__link"
                 ><svg class="contacts__envelope" width="16" height="12">
                   <use href="./images/icons.svg#envelope"></use>
@@ -53,7 +47,7 @@
                 info@devstudio.com</a
               >
             </li>
-            <li class="item">
+            <li class="contacts__item">
               <a href="+380961111111" class="contacts__link"
                 ><svg class="contacts__smartphone" width="10" height="16">
                   <use href="./images/icons.svg#smartphone"></use>
@@ -68,7 +62,7 @@
     <main>
       <section class="section">
         <div class="container">
-          <ul class="categories__list">
+          <ul class="categories">
             <li class="categories__item">
               <button type="button" class="categories__btn">Все</button>
             </li>
@@ -85,7 +79,7 @@
               <button type="button" class="categories__btn">Маркетинг</button>
             </li>
           </ul>
-          <ul class="portfolio__list">
+          <ul class="portfolio">
             <li class="portfolio__item">
               <a href="" class="portfolio__link">
                 <div class="portfolio__img">
@@ -96,7 +90,7 @@
                     alt=""
                   />
                   <div class="portfolio__overlay">
-                    <p class="overlay__text">
+                    <p class="portfolio__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -105,8 +99,8 @@
                   </div>
                 </div>
                 <div class="portfolio__block">
-                  <h2 class="porfolio__title">Технокряк</h2>
-                  <p class="portfolio__text">Веб-сайт</p>
+                  <h2 class="portfolio__title">Технокряк</h2>
+                  <p class="portfolio__subtitle">Веб-сайт</p>
                 </div>
               </a>
             </li>
@@ -120,7 +114,7 @@
                     alt=""
                   />
                   <div class="portfolio__overlay">
-                    <p class="overlay__text">
+                    <p class="portfolio__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -129,10 +123,10 @@
                   </div>
                 </div>
                 <div class="portfolio__block">
-                  <h2 class="porfolio__title">
+                  <h2 class="portfolio__title">
                     Постер New Orlean vs Golden Star
                   </h2>
-                  <p class="portfolio__text">Дизайн</p>
+                  <p class="portfolio__subtitle">Дизайн</p>
                 </div>
               </a>
             </li>
@@ -146,7 +140,7 @@
                     alt=""
                   />
                   <div class="portfolio__overlay">
-                    <p class="overlay__text">
+                    <p class="portfolio__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -155,8 +149,8 @@
                   </div>
                 </div>
                 <div class="portfolio__block">
-                  <h2 class="porfolio__title">Ресторан Seafood</h2>
-                  <p class="portfolio__text">Приложение</p>
+                  <h2 class="portfolio__title">Ресторан Seafood</h2>
+                  <p class="portfolio__subtitle">Приложение</p>
                 </div>
               </a>
             </li>
@@ -170,7 +164,7 @@
                     alt=""
                   />
                   <div class="portfolio__overlay">
-                    <p class="overlay__text">
+                    <p class="portfolio__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -179,8 +173,8 @@
                   </div>
                 </div>
                 <div class="portfolio__block">
-                  <h2 class="porfolio__title">Проект Prime</h2>
-                  <p class="portfolio__text">Маркетинг</p>
+                  <h2 class="portfolio__title">Проект Prime</h2>
+                  <p class="portfolio__subtitle">Маркетинг</p>
                 </div>
               </a>
             </li>
@@ -194,7 +188,7 @@
                     alt=""
                   />
                   <div class="portfolio__overlay">
-                    <p class="overlay__text">
+                    <p class="portfolio__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -203,8 +197,8 @@
                   </div>
                 </div>
                 <div class="portfolio__block">
-                  <h2 class="porfolio__title">Проект Boxes</h2>
-                  <p class="portfolio__text">Проект Boxes</p>
+                  <h2 class="portfolio__title">Проект Boxes</h2>
+                  <p class="portfolio__subtitle">Проект Boxes</p>
                 </div>
               </a>
             </li>
@@ -218,7 +212,7 @@
                     alt=""
                   />
                   <div class="portfolio__overlay">
-                    <p class="overlay__text">
+                    <p class="portfolio__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -227,8 +221,8 @@
                   </div>
                 </div>
                 <div class="portfolio__block">
-                  <h2 class="porfolio__title">Inspiration has no Borders</h2>
-                  <p class="portfolio__text">Веб-сайт</p>
+                  <h2 class="portfolio__title">Inspiration has no Borders</h2>
+                  <p class="portfolio__subtitle">Веб-сайт</p>
                 </div>
               </a>
             </li>
@@ -242,7 +236,7 @@
                     alt=""
                   />
                   <div class="portfolio__overlay">
-                    <p class="overlay__text">
+                    <p class="portfolio__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -251,8 +245,8 @@
                   </div>
                 </div>
                 <div class="portfolio__block">
-                  <h2 class="porfolio__title">Издание Limited Edition</h2>
-                  <p class="portfolio__text">Дизайн</p>
+                  <h2 class="portfolio__title">Издание Limited Edition</h2>
+                  <p class="portfolio__subtitle">Дизайн</p>
                 </div>
               </a>
             </li>
@@ -266,7 +260,7 @@
                     alt=""
                   />
                   <div class="portfolio__overlay">
-                    <p class="overlay__text">
+                    <p class="portfolio__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -275,8 +269,8 @@
                   </div>
                 </div>
                 <div class="portfolio__block">
-                  <h2 class="porfolio__title">Проект LAB</h2>
-                  <p class="portfolio__text">Маркетинг</p>
+                  <h2 class="portfolio__title">Проект LAB</h2>
+                  <p class="portfolio__subtitle">Маркетинг</p>
                 </div>
               </a>
             </li>
@@ -290,7 +284,7 @@
                     alt=""
                   />
                   <div class="portfolio__overlay">
-                    <p class="overlay__text">
+                    <p class="portfolio__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -299,8 +293,8 @@
                   </div>
                 </div>
                 <div class="portfolio__block">
-                  <h2 class="porfolio__title">Growing Business</h2>
-                  <p class="portfolio__text">Приложение</p>
+                  <h2 class="portfolio__title">Growing Business</h2>
+                  <p class="portfolio__subtitle">Приложение</p>
                 </div>
               </a>
             </li>
@@ -311,7 +305,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__wrapper">
-          <div class="footer__block block--right">
+          <div class="footer__block footer__block--right">
             <a href="" class="logo footer__logo"
               >Web<span class="logo--white">Studio</span></a
             >
@@ -325,9 +319,9 @@
               >
             </address>
           </div>
-          <div class="footer__block">
+          <div class="">
             <p class="subscribe__heading">присоединяйтесь</p>
-            <ul class="flex__block">
+            <ul class="socials">
               <li class="socials__item">
                 <a href="" class="socials__link footer__socials--color">
                   <svg class="socials__icon" width="20" height="20">
@@ -358,7 +352,7 @@
               </li>
             </ul>
           </div>
-          <form class="subscribe__form">
+          <form class="subscribe">
             <p class="subscribe__heading">Подпишитесь на рассылку</p>
             <input
               type="email"

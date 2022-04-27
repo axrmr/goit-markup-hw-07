@@ -1,8 +1,7 @@
 @import "./utils/vars";
-@import "./components/common";
+@import "./utils/normalize";
 @import "./utils/placeholders";
-@import "./utils/mixins";
-@import "./components/blocks";
+@import "./components/common";
 @import "./components/social__media";
 @import "./components/logo";
 @import "./components/page__header";
@@ -14,6 +13,8 @@
 @import "./components/team__section";
 @import "./components/clients__section";
 @import "./components/page__footer";
+@import "./components/categories";
+@import "./components/portfolio__section";
 @import "./components/subscribe__form";
 @import "./components/modal";
 @import "./components/modal__form";
