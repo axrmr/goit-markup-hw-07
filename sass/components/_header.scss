@@ -1,11 +1,18 @@
-.contacts {
-  @extend %flex__list;
+.header {
+  border-bottom: 1px solid #ececec;
 
-  &__item + &__item {
+  &__inner {
+    display: flex;
+    align-items: center;
+  }
+  &__contacts {
+    @extend %flex__list;
+  }
+  &__contacts-item + &__contacts-item {
     @extend %margin__left30;
   }
 
-  &__link {
+  &__contacts-link {
     display: flex;
     align-items: center;
     padding-top: 32px;
@@ -25,7 +32,7 @@
     }
   }
 
-  &__envelope {
+  &__contacts-envelope {
     width: 16px;
     height: 12px;
     margin-right: 10px;
@@ -33,7 +40,7 @@
     fill: currentColor;
   }
 
-  &__smartphone {
+  &__contacts-smartphone {
     width: 10px;
     height: 16px;
     margin-right: 10px;

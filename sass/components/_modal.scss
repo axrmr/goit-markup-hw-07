@@ -35,7 +35,7 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translate3d(-50%, -50%, 0);
 
-  &__btn {
+  &__close-btn {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -59,7 +59,7 @@
     }
   }
 
-  &__icon {
+  &__close-icon {
     display: inline-block;
     width: 18px;
     height: 18px;
