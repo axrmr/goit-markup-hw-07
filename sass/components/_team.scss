@@ -50,6 +50,10 @@
     display: flex;
   }
 
+  &__socials-item {
+    width: calc((100%-30px) / 4);
+  }
+
   &__socials-item + &__socials-item {
     margin-left: 10px;
   }
