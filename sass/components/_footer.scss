@@ -62,7 +62,22 @@
     color: $whiteText;
   }
 
+  &__socials-list {
+    display: flex;
+  }
+
+  .footer__socials-item + .footer__socials-item {
+    margin-left: 10px;
+  }
+
   &__socials-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
     background-color: rgba(255, 255, 255, 0.1);
     fill: $whiteText;
 
@@ -72,6 +87,11 @@
     &:focus {
       background-color: $blueAccent;
     }
+  }
+
+  &__socials-icon {
+    width: 20px;
+    height: 20px;
   }
 
   &__form {
