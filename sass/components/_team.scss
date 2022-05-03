@@ -16,7 +16,11 @@
     @extend %margin__left30;
   }
 
-  &__block {
+  &__img {
+    width: 100%;
+  }
+
+  &__info {
     padding-top: 30px;
     padding-right: 32px;
     padding-bottom: 30px;
@@ -28,7 +32,7 @@
     background-color: $whiteBg;
   }
 
-  &__name {
+  &__info-title {
     margin-top: 0;
     margin-bottom: 10px;
 
@@ -38,7 +42,7 @@
     line-height: 1.19;
   }
 
-  &__text {
+  &__info-text {
     margin: 0;
     margin-bottom: 16px;
     text-align: center;

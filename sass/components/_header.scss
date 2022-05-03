@@ -8,6 +8,7 @@
   &__contacts {
     @extend %flex__list;
   }
+
   &__contacts-item + &__contacts-item {
     @extend %margin__left30;
   }
