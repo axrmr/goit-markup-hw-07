@@ -6,11 +6,11 @@
     align-items: center;
   }
   &__contacts {
-    @extend %flex__list;
+    display: flex;
   }
 
   &__contacts-item + &__contacts-item {
-    @extend %margin__left30;
+    margin-left: 30px;
   }
 
   &__contacts-link {

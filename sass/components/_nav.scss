@@ -5,14 +5,12 @@
   margin-right: auto;
 
   &__list {
-    @extend %flex__list;
+    display: flex;
+    margin-left: -50px;
   }
 
   &__item {
-    width: calc((100%-150px) / 3);
-  }
-
-  &__item + &__item {
+    width: calc(100% / 3 - 50px);
     margin-left: 50px;
   }
 

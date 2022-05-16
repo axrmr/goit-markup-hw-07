@@ -64,13 +64,11 @@
 
   &__socials-list {
     display: flex;
+    margin-left: -10px;
   }
 
   &__socials-item {
-    width: calc((100%-30px) / 4);
-  }
-
-  &__socials-item + &__socials-item {
+    width: calc(100% / 4 - 10px);
     margin-left: 10px;
   }
 
